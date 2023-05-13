@@ -1,0 +1,70 @@
+header {
+    background-image: url("https://demo2.okhub.tech/wp-content/lib/skyx/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.solar-battery {
+    background-image: url("https://demo2.okhub.tech/wp-content/lib/skyx/images/research.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-project {
+    background-image: url("https://demo2.okhub.tech/wp-content/lib/skyx/images/bannerproject.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul.list-slider-page li {
+    padding: 0 calc(1.25*100vw/100);
+}
+
+[data-aos="zoom-new-animation"].aos-animate {
+    animation: zoom 1s linear;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+        transform: rotate(120deg);
+    }
+
+    50% {
+        transform: scale(1.5);
+        transform: rotate(240deg);
+    }
+
+    100% {
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 767.8px) {
+    section.solar-battery {
+        background-position: revert;
+    }
+
+}
+
+#company-title {
+    animation: typing 3s linear infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
